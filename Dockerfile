@@ -12,7 +12,7 @@ WORKDIR /app
 COPY requirement.txt .
 
 # Install any dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirement.txt
 
 # Copy the content of the local src directory to the working directory
 COPY . .
